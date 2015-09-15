@@ -1,7 +1,7 @@
 defmodule Placex.ImageController do
   use Placex.Web, :controller
 
-  @description_pattern ~r/(?<width>\d{1,4})x(?<height>\d{1,4})\.(?<format>png)/
+  @description_pattern ~r/(?<width>\d{1,4})x(?<height>\d{1,4})\.(?<format>png|jpg|gif)/
   @color_pattern ~r/[0-9a-f]{6}/
 
   def index(conn, %{"description" => descriptor}) do
