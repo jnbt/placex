@@ -1,5 +1,9 @@
 # Placex
 
+A very limited image placeholder service written in Elixir.
+
+## Usage
+
 To start your Phoenix app:
 
   1. Install dependencies with `mix deps.get`
